@@ -1,0 +1,37 @@
+---
+title: "Math 438 Past Projects"
+author: "Ben Ridenhour"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Here is a list of some of the previous projects students have done:
+
+- Machine learning to predict League of Legends win rates
+- Modeling population in countries around the world using hybrid dynamic models
+- Predicting hourly traffic flows in a large metropolitan area (Houston)
+- Using Markov Chain--Monte Carlo approach to model avalanche deaths
+- Cosmic ray enegeries modeled using a smoothed--curve (spline) approach
+- Dynamic model of author book sales using Amazon sales data
+- Modeling rainfall in a small patch (poster included in folder)
+- Multi-strain resource competition model in bacteria
+- Simulating winning strategies for *Magic: The Gathering* (poster included in folder)
+
+Possible subjects for this semester:
+
+- Population genetic models (dynamic/stochastic)
+- Political science (voter models, game theory, social choice, or network models)
+- Gerrymandering/political apportionment
+- Invasive species modeling
+- Financial portfolio modeling
+- Global political strategic decisions using, e.g., game theory
+- Modeling heat equations (PDEs)
+- Modeling physical dynamics systems (electricity, fluid, etc.)
+- Chaotic model/stochastic models
+- Predicting game outcomes (sports, board, etc, **CHESS**)
+- Modeling community resource usage (food, housing, etc)
+- Combining disease modeling with other outcomes, such as educational attainment
