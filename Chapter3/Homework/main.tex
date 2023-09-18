@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Chapter 3 Homework}
+\date{15 September 2023}
+
+\begin{document}
+
+\maketitle
+
+Use the two models ($W = kl^3$ and $W = klg^2$) and data given in Problem 3.4.7 in your textbook to do the following: 
+
+\begin{itemize}
+    \item Create 2 new data sets (thus you will have a total of 3 data sets to use). In the first of the new data sets, add more error to each of the three variables (length, girth, and weight). Use the rnorm()  function to add in error. In the second new data set, use your ``noisier'' data to create outliers in the data for the weight variable. 
+    \item For each of the three data sets, apply the 5 different criteria (e.g., Chebyshev, least-squares) we used in class to obtain a fitted model. Plot the fitted models on a single plot.
+    \item For each of the 5 different criteria, run 6 different optim()/minimize() methods (Nelder-Mead, BFGS, CG, L-BFGS-B, SANN, Brent) and make a table to pick the best method for the criteria (i.e., just as I did in the end of the Chapter 3 example). If any of the algorithms is better than the default Nelder-Mead, re-run the optimization using that algorithm and plot the differences.
+    \item For each of the 3 data sets, choose which criteria + algorithm combination you think is best. Justify your answers!
+\end{itemize}
+
+
+Let me know if you have questions. This assignment is due Friday, 22 September. 
+\end{document}
