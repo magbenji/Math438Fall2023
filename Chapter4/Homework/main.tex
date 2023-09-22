@@ -1,0 +1,28 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Chapter 4 Homework}
+\date{22 September 2023}
+
+\begin{document}
+
+\maketitle
+
+Use the data set provided on GitHub (``Homework4.RData'' in the Chapter 4 folder) to do the following: 
+
+\begin{itemize}
+    \item Sample a small, but relatively evenly spaced on the $x$-axis, set of points (e.g., $n\le15$). Using that sample, create a model using the Lagrangian polynomial. Plot the results of the model vs.\,the data. Likewise, create a table of divided differences up to the $5^{th}$ order. Make an argument for a particular type of model based on your results. 
+    \item Repeat the first item 2 more times (other than making an argument) using different samples of points. Do the changes you observe between samples make you feel more strongly/weakly about the type of model you might choose?
+    \item Using \texttt{smooth.spline}, perform the following:
+    \begin{itemize}
+        \item Using the default knots, create splines with \texttt{spar} $\in \{0,0.2,0.4,0.6,0.8,1.0\}$. In a single plot, plot the 6 different splines versus the data.
+        \item Repeat the previous item, this time use 4 knots.
+        \item Repeat again, this time use 6 knots.
+        \item After looking at the various fitted splines, what model do you think is appropriate now?
+    \end{itemize}
+    \item Using the \texttt{lm()} function, fit the model that you think is most appropriate. If there are parameters in the model you have chosen that cannot be fit using linear model, choose those parameters by using \texttt{optim()} in combination with the AIC value for each model.
+\end{itemize}
+
+
+Let me know if you have questions. This assignment is due Friday, 29 September. 
+\end{document}
