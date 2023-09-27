@@ -34,3 +34,6 @@ results[1]
 #stop the engine so that you evaluate the next position
 engine$stop()
 
+resMatrix <- vapply(results,function(x){strsplit(x," ")[[1]][c(10,20)]}, c(CP = 0, Move = "Nf6"))
+attr(resMatrix, "dimnames") <- NULL
+resData <- data.frame(CP = as.numeric(t(resMatrix)[,1]), Move = t(resMatrix)[,2])
