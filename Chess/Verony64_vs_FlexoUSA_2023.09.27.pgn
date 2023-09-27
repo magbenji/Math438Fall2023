@@ -1,0 +1,39 @@
+[Event "Live Chess"]
+[Site "Chess.com"]
+[Date "2023.09.27"]
+[Round "-"]
+[White "Verony64"]
+[Black "FlexoUSA"]
+[Result "0-1"]
+[CurrentPosition "6k1/8/p7/4p1p1/5q2/8/4K3/8 w - -"]
+[Timezone "UTC"]
+[ECO "B20"]
+[ECOUrl "https://www.chess.com/openings/Sicilian-Defense...6.Nf3-Nf6-7.O-O-O-O-8.Nc3"]
+[UTCDate "2023.09.27"]
+[UTCTime "20:35:03"]
+[WhiteElo "2131"]
+[BlackElo "2081"]
+[TimeControl "60"]
+[Termination "FlexoUSA won on time"]
+[StartTime "20:35:03"]
+[EndDate "2023.09.27"]
+[EndTime "20:37:31"]
+[Link "https://www.chess.com/game/live/89585990209"]
+[WhiteUrl "https://www.chess.com/bundles/web/images/noavatar_l.84a92436.gif"]
+[WhiteCountry "54"]
+[WhiteTitle "WGM"]
+[BlackUrl "https://images.chesscomfiles.com/uploads/v1/user/6388386.4a827d4f.50x50o.c1e07efc34a6.jpeg"]
+[BlackCountry "2"]
+[BlackTitle ""]
+
+1. e4 c5 2. Nc3 Nc6 3. d3 d6 4. g3 g6 5. Bg2 Bg7 6. f4 Nf6 7. Nf3 O-O 8. O-O
+Bd7 $6 9. h3 a6 10. Be3 b5 11. Qd2 Rb8 12. Ne2 Qc7 13. g4 h6 $6 14. Ng3 b4 15. g5 $2
+hxg5 $6 16. Nxg5 Nh7 17. Nxh7 Kxh7 18. Qf2 $2 Bxb2 19. Rae1 $6 Bd4 $2 20. f5 $9 Ne5 $9
+21. Bxd4 $6 cxd4 22. Qxd4 $2 Qxc2 23. Re3 $2 Bb5 24. Rf2 Qd1+ $2 25. Kh2 $6 Bxd3 $2 26.
+Nf1 $2 Rbc8 $9 27. Rg3 $9 Rc1 $4 28. Rd2 $9 Qe1 29. Rdxd3 Nxd3 30. Qxd3 Rc3 31. Qd4
+Qxg3+ $4 32. Nxg3 Rfc8 33. f6 e5 34. Qxd6 Rc2 35. Qe7 Kg8 36. Qd6 Rxa2 37. Qxe5
+Rcc2 38. Qg5 $4 Rxg2+ 39. Kh1 Rgc2 40. Kg1 Ra1+ 41. Nf1 Rcc1 $1 42. Qf4 $4 Rxf1+ 43.
+Qxf1 Rxf1+ 44. Kxf1 b3 45. Kf2 b2 46. Ke3 b1=Q 47. Kd2 Qb5 48. Ke3 Qe5 49. Kd3
+Qxf6 50. Ke3 Qh4 51. Kd4 Qxh3 52. e5 Qe6 53. Ke4 f6 54. Kd4 fxe5+ 55. Kd3 g5 56.
+Ke3 Qf5 57. Ke2 Qf4 {<br /><br />Game may have continued...} (57... Qf4 58. Ke1
+g4 59. Ke2 g3 60. Kd3 g2 61. Kc2 g1=Q 62. Kd3 Qgc1 63. Ke2 Qcf1# {-M6}) 0-1
