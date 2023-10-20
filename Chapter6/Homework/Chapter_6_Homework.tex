@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Chapter 6 Homework}
+\date{20 October 2023}
+
+
+\begin{document}
+
+\maketitle
+
+For next week's homework I want you to revisit our homework from Chapter 1 and work with a discrete time SIR model. (See that homework for details if you have forgotten how an SIR model works.) However, this time I want you to simulate the system using a stochastic Markov chain by using first the normal Gillespie algorithm and second the tau leaping algorithm. The stopping condition for the Markov chain should be when $I = 0$. Note that for the tau leaping algorithm, the order of the reactions (in vector $\mathbf{g}$ for selecting $\tau$) is 2 for some of the reactions.
+
+Here are the specific conditions I want you to simulate:
+
+\begin{itemize}
+\item Set $N = 500$, $\beta = 1/5$, $\gamma = 2/15$, $S(0) = 499$, and $I(0) = 1$ then simulate the system 20 times for both algorithms. After performing the simulations, compare:
+\begin{itemize}
+\item how many iterations did it take each algorithm to complete?
+\item how many people got sick on average during an outbreak for the 2 algorithms?
+\item how long (duration in $t$) on average did it take for the outbreaks to end for the algorithms?
+\end{itemize}
+\item Using the tau leaping algorithm only:
+\begin{itemize}
+\item Simulate the system 1000 times. Plot the results for the $I$ class; plot the solution of the discrete time SIR along with other simulations (but make it stand out in some way). Characterize the mean and variance of 1) the number of people who got sick, 2) the time to the peak of the epidemic ($\max(I)$), and 3) the duration of the epidemics. 
+\item Reduce $N$ to 100 ($S(0) = 99, I(0) = 1$) and simulate the system. Compare the proportion of the population that got sick to the proportion you measured in the previous item. 
+\item Using the population size of 500 again, increase $\gamma = 2/11$. Now calculate the percentage of the time that there was not an outbreak (i.e., only one person was sick or very few people got sick).
+\end{itemize}
+\end{itemize}
+
+Let me know if you have questions. This assignment is due Friday, 27 October.
+
+\end{document}
