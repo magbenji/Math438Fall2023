@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Chapter 8 Homework}
+\date{3 November 2023}
+
+
+\begin{document}
+
+\maketitle
+
+For the Chapter 8, homework I want you to do the following. Using Table 8.7:
+
+\begin{itemize}
+\item Create a bipartite graph of the problem and plot it using a bipartite layout. Use different shapes for the vertices representing the players and the vertices representing the bases. Rotate the plot so that players are arranged in the left column and the positions they can play are in the right column.
+\item Find a maximum matching set as a solution to the problem 8.3.10 (five players go into the lineup).
+\item Visually inspect the graph and find another solution and test  (using the appropriate functions) whether it is a solution.
+\item Now, create a directed graph that can be used to solve the softball manager's problem using the maximum flow. Plot this graph in an appropriate layout.
+\item Find a maximum matching set by calculating the maximum flow. Is it the same set as that calculated using the bipartite graph?
+\item As discussed in class, the algorithms to find matching, flow, etc in R are dependent on the order in which vertices/edges were placed in the command to make the graph. In terms of the number of edges in a graph, how many possible ways (based on reordering) are there to enter a network in R? How many different orders are there to enter table 8.7?
+\item Create a function that randomizes the order of entry of graph edges. Run it for $1\,000$ randomizations and see how many solutions to the maximum matching problem are found. (NB: I suggest using adjacency matrices for the randomization, but there are other ways.)
+\item Now add the following information to the problem. Maximize the expected number of home runs by the team, given that each player averages the following number points per game:
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Player & Pts. & Player & Pts. \\
+\hline
+Alice & 10 & Bonnie & 5 \\
+Courtney & 8.5 & Deb &  2 \\
+Ellen & 5 & Fay & 12 \\
+Gladys & 6 & Hermione & 6.2 \\
+\hline
+\end{tabular}
+\end{center}
+
+\end{itemize}
+
+
+Let me know if you have questions. This assignment is due Friday, 10 November.
+
+\end{document}
